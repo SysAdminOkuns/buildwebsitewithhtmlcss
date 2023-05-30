@@ -1,0 +1,128 @@
+*{
+margin: 0;
+padding: 0;
+font-weight: normal;
+font-size: 16px;
+}
+
+body{
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    background-color:#f2f2f2;
+    color: #006400;
+    font-family: Helvetica, Times, serif;/* Topography */
+    padding: 40px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 10px 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#top-nav{
+  background-color: #999;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul li {
+    float: left;
+}
+
+li a{
+    display: block;
+    color: #006400;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#top-nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+  background-color: #006400;
+  color: #f2f2f2;
+}
+
+p{
+margin: 10px;
+line-height:1.3;
+text-indent: 20px;
+}
+
+/* ID Selector */
+/* Class Selector */
+/* Descendant Selector */
+/* Grouping Selector */
+
+/* styling Links */
+/* ------------------ */
+
+/* unvisited link */
+a:link{
+    color: #f42aa6;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #f42aa6;
+}
+
+/* mouseOver link */
+a:hover{
+    color: #a50578;
+    text-decoration: underline;
+}
+
+/* active link */
+a:active{
+    color: #000;
+}
+
+/* Specific Link Styles */
+#link-1:hover{
+    background: #333;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#link-3{
+    background: #f42aa6;
+    color: white;
+    padding: 5px;
+}
+
+#link-3:hover{
+    background: #a50578;
+    text-decoration: none;
+}
+
+#link-4:hover{
+    color: #333;
+}

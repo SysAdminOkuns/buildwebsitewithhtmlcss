@@ -1,0 +1,47 @@
+/* Simple CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+body{
+    background: #272727;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizedlegibility;
+    color: #333;
+}
+
+#container{
+    background: #f9f9f9;
+    width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 2px solid #d3d3d3;
+    box-shadow: 5px 5px #8c8c8c;
+    text-align: left;
+    position: relative;
+}
+
+.box{
+    background: #d9d9d9;
+    padding: 40px;
+    width: 100px;
+    height: 100px;
+}
+
+#relative-box{
+    position: relative;
+    top: 30px;
+    left: -70px;
+}
+
+#absolute-box{
+    margin-top: 20px;
+    margin-right: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
